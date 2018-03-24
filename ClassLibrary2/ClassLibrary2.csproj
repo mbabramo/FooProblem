@@ -6,10 +6,12 @@
 
   <ItemGroup>
     <PackageReference Include="CodeGeneration.Roslyn.BuildTime" Version="0.4.11" />
+    <DotNetCliToolReference Include="dotnet-codegen" Version="0.4.11" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
   </ItemGroup>
+
 
 </Project>
